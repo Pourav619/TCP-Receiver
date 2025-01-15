@@ -18,8 +18,8 @@ and make sure not to send more than the other side is wdilling to accept. All th
 an agreed-upon scheme set down in 1981 called the Transmission Control Protocol or TCP.
 # I: Building ByteStream
 A ByteStream class, as the name itself suggests, is basically a container that stores a collection
-of bytes from which bytes can be read or written to. In the first part of the assignment, your goal
-will be to build a ByteStream class that will be used to represent a reliable byte stream.
+of bytes from which bytes can be read or written to. Our goal
+is to build a ByteStream class that will be used to represent a reliable byte stream.
 These are some of the properties of byte stream :
 1. Bytes are written on the input side and read out from the output side (use a data
 structure that allows pushing the byte from one side and popping from the other side).
